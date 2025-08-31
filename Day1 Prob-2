@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    // asking the user to input two numbers 
+        int a , b ,sum ,diff, multi , divv ;
+    printf("Enter number 1 :");
+    scanf("%d", &a);
+    printf("Enter number 2 :" );
+    scanf ("%d" , &b );
+    
+    //  now calculating their sum 
+     sum= a+b;
+     printf("Sum of a and b is : %d\n", sum );
+     // now calculating their difference
+     diff= a-b;
+     printf("Difference on a and b :%d\n" , diff);
+     //now calculating their Product
+     multi= a*b;
+     printf("Product of a and b :%d\n", multi);
+     //now calculating their quoteint
+     divv=a/b;
+     printf("Quotient of a and b %d\n", divv);
+     
+    return 0;
+}
