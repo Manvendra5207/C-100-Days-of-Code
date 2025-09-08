@@ -1,1 +1,18 @@
+#include <stdio.h>
+int main() {
+    int a , b , Area , Perimeter;
 
+    printf("Enter Lenght: ");
+    scanf("%d", &a);
+    
+    printf("Enter Breadth: ");
+    scanf("%d",&b);
+    
+    Area= a*b;
+    printf("Area is: %d\n",Area );
+    
+    Perimeter= 2*(a+b);
+    printf("Perimeter is : %d",Perimeter);
+
+    return 0;
+}
