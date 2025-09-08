@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int temC , temF;
+    printf("Temperature (C): ");
+    scanf("%d",&temC);
+    
+    temF= temC*9/5 +32;
+    printf("Fahrenheit temperature: %d",temF);
+
+    return 0;
+}
